@@ -1,0 +1,32 @@
+{
+  "name": "VipOyunBot",
+  "logo": "https://images.aposto.com/2021/0/2021-01-20T12:49:23.463Z.png",
+  "description": "Telegram kelime bilgi oyun",
+  "env": {
+    "API_ID": {
+      "description": "@mytelegram dan api hash api id alınız.",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "@mytelegram dan api hash api id alınız.",
+      "value": ""
+    },
+    "TOKEN": {
+      "description": "@botfather den aldığınız tokeni giriniz",
+      "value": ""
+    },
+    "USERNAME": {
+      "description": "Kullanıcı adınızı giriniz.",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Bot Sahibinin İD girin.",
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python.git"
+    }
+  ]
+}
